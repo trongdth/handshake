@@ -1,4 +1,6 @@
-![Alt text](logo.png?raw=true "Handshake")
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cryptonomous/handshake/master/logo.png">
+</p>
 
 -----------------
 
