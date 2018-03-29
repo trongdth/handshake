@@ -6,9 +6,9 @@
 
 Handshake is implemented as an **Ethereum smart contract** written in [Solidity](https://github.com/ethereum/solidity).
 
-For the basic handshakes that involves no payment, we provide the contract [BasicHandshake]() to facilitate an agreement between 2 parties.
+For the basic handshakes that involves no payment, we provide the contract [BasicHandshake](contracts/BasicHandshake.sol) to facilitate an agreement between 2 parties.
 
-For a more advance usecase which involves a payment (currently in ETH), [PayableHandshake]() receives an escrow and lock it for some specified time window. To protect users' payment, the contract only transfers the payment when both parties agree with each other.
+For a more advance usecase which involves a payment (currently in ETH), [PayableHandshake](contracts/PayableHandshake.sol) receives an escrow and lock it for some specified time window. To protect users' payment, the contract only transfers the payment when both parties agree with each other.
 
 ## Basic handshake
 
@@ -122,6 +122,6 @@ To run the unit tests:
 
 ## Contributing
 
-All contributions, feature requests and issue reports are welcomed. [Create an issue]() to submit your requests or notify a bug. If you would like to add a feature, [make a pull request]().
+All contributions, feature requests and issue reports are welcomed. [Create an issue](https://github.com/cryptonomous/handshake/issues) to submit your requests or notify a bug. If you would like to add a feature, [make a pull request](https://github.com/cryptonomous/handshake/pulls).
 
 ## License
